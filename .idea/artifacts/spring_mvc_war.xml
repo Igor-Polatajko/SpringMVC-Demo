@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="spring_mvc:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="spring_mvc_war.war">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="artifact" artifact-name="spring_mvc:war exploded" />
+    </root>
+  </artifact>
+</component>
